@@ -53,7 +53,6 @@ const NavBar = () => {
 						 name4="LRF - Relatórios"	
 						 link5="http://transparencia.aparecida.go.gov.br/portal-transparencia/p/services/gestaoorcamentaria/balancos/"
 						 name5="Balanço"	
-						 	
 				/>
 
 				<IconComponer icon="check-double"
@@ -92,17 +91,7 @@ const NavBar = () => {
 						 name5="Rodízio de Funerárias"	
 				/>
 				
-
-				
-
-				
-
-				
-
-				
-
 			</div>
-			
 		</div>
 	</section>
         
