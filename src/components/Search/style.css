@@ -1,0 +1,9 @@
+.style-search{
+
+background-image: url(img/bg-masthead.jpg); 
+background-position: right bottom;	
+background-size: cover;	
+background-repeat: repeat; 
+background-attachment: fixed; 
+min-height: 320px;
+}

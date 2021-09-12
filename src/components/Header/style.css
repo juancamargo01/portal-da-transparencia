@@ -1,0 +1,5 @@
+.style-header{
+    background-color: transparent; 
+    position: absolute; 
+    z-index: 3;
+}
