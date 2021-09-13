@@ -20,7 +20,7 @@ const IconComponer = (props) => {
                                     <div className="icon  text-primary mx-sm-3 mx-2">
                                     <FontAwesomeIcon icon = {icon}/>
                                     </div>
-                                    <p><strong>{text}</strong></p>
+                                    <p >{text}</p>
                                 </h3>
                             </button>
                         </div>
