@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import imgBrasao from'../../assets/img/BANDEIRABRASAO250px-PNG.png'
 
-import './style.css' 
+
 
 
 const Footer = () => {  
