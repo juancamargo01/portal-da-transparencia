@@ -1,10 +1,24 @@
+import styled from 'styled-components';
 import imgBrasao from'../../assets/img/BANDEIRABRASAO250px-PNG.png'
+
 import './style.css' 
 
-const Footer = () => {
+
+const Footer = () => {  
+    const DivStyle = styled.div`
+        position: relative; 
+        height: auto;
+    
+    `
+    const DivStyle2 = styled.div`
+    position: absolute; 
+    width: 100%; 
+    top: 70%; 
+    background-color: #ddd;
+` 
     return (
-        <div className="mt-5 style-footer1" >
-            <footer className="pt-5 style-footer2" >
+        <DivStyle className="mt-5 " >
+            <DivStyle2 className="pt-5 " >
                 <div className="container">
                     <div className="row">
                         <div className=" col-md-6 text-center pb-4">
@@ -21,8 +35,8 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-            </footer>
-	    </div>
+            </DivStyle2>
+	    </DivStyle>
     );
 }
 
